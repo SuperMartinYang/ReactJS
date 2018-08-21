@@ -7,11 +7,12 @@ html, body {
 .home {
     display: flex;
     min-width: 100%;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     flex-wrap: wrap;
 }
 
+/**
 .home > nav {
     display: flex;
     background-color: #0C3B20;
@@ -28,6 +29,7 @@ html, body {
     font-size: 2em;
     text-align: center;
 }
+*/
 
 #homebox {
     color: #E1F5F5;
@@ -105,9 +107,11 @@ html, body {
     text-decoration: underline;
 }
 
+/**
 .App {
-  text-align: center;
+  text-align: left;
 }
+*/
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -115,8 +119,9 @@ html, body {
 }
 
 .App-header {
+  text-align: center;
   background-color: #222;
-  height: 150px;
+  height: 180px;
   padding: 20px;
   color: white;
 }
@@ -134,3 +139,6 @@ html, body {
   to { transform: rotate(360deg); }
 }
 
+.main-content {
+	padding: 10px;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import './style.css'
 import logo from './images/logo.svg';
-import "./style.css";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './components/Home'
 import About from './components/About'
@@ -41,7 +41,7 @@ class App extends Component {
 			<h1 className="App-title">Welcome to React</h1>
 			<MainMenu />
 		  </header>
-		  <div>
+		  <div className="main-content">
 			<Route exact path="/" component={Home} />
 			<Route exact path="/about" component={About} />
 			<Route exact path="/code" component={Code} />
